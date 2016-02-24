@@ -1,5 +1,9 @@
-require "movie_scrapper/version"
+require 'rubygems'
+require 'nokogiri'
+require 'open-uri'
 
-module MovieScrapper
-  # Your code goes here...
-end
+require_relative "./movie_scrapper/version"
+require_relative './movie_scrapper/scrape'
+require_relative './movie_scrapper/cli'
+
+
